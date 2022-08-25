@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZeEHDZdvyip/DNtSKhtukuZRSPo=
+		1wzGZtqOyinxeHRAdQpekU7CAtU=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Gj33+6ZPJEqklryv0A7sQpALeyo=
+		2TEfm7FXOeYrbrSb0d1bmFIJQ5Q=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Lz+0nHJPEUiNpnA4/4ijFDa8YeE=
+		OiKOo0F7JvI9Li6FVRYuPfBip7M=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		A8z7ZQELzZYoLdKPdQPAFdgKbjQ=
+		jZF1tD93JoHRrHnfZxAlbCVYJk4=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0Nas0N0ieav035HbnGWnJcYtLcA=
+		ctQNhzTdrZsjY4Gr3e+evny1q0A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FgVvnY8fgjXbV5j265YUupOKuAGRzOorAukcZi27Mgc=
+			ekdc+RSFL7U261Lk/8oy+qfk5OHCU6R1/HEEO40hsbY=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HwjO67rwIGSyeaIBeYKnHm5YuYjzGvfemKRE/iSians=
+			i+0vwT9w6RgJuSlMmFqWxZCjkvw2X1DSPUn9f5gHe9c=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJFA+y1pWkfC1lbmzMzus61NdWKjMUdRE+OkrthTkk0=
+			iO/rdCzeMg9O+KmNj/fo8uE7xNHPJimnjAQxSWdpWSU=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eggrzn9nuqbYBM+OmuFyIb+mIbXGUr/5OVNlNJFGGQU=
+			q38KWjrFuvoPenVnCfVsJS/xEF02PzvK84wWmpSPa+k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -68,12 +68,29 @@ extension SwiftUI.View {
   public func webAuthenticationSession<Item>(item: SwiftUI.Binding<Item?>, content representationBuilder: @escaping (Item) -> UnumIDWebWallet.WebAuthenticationSession) -> some SwiftUI.View where Item : Swift.Identifiable
   
 }
+public enum Enviroment {
+  case dev
+  case sandbox
+  case production
+  public var baseUrl: Swift.String {
+    get
+  }
+  public var webWalletUrl: Swift.String {
+    get
+  }
+  public static func == (a: UnumIDWebWallet.Enviroment, b: UnumIDWebWallet.Enviroment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct Parameters {
   public let status: Swift.Bool
   public let userCode: Swift.String
   public let userEmail: Swift.String?
   public let issuer: Swift.String
-  public init(status: Swift.Bool, userCode: Swift.String, userEmail: Swift.String? = nil, issuer: Swift.String)
+  public let enviroment: UnumIDWebWallet.Enviroment
+  public init(status: Swift.Bool, userCode: Swift.String, userEmail: Swift.String? = nil, issuer: Swift.String, enviroment: UnumIDWebWallet.Enviroment = .production)
 }
 extension UnumIDWebWallet.Parameters {
   public var webWalletURL: Foundation.URL {
@@ -142,3 +159,5 @@ extension UnumIDWebWallet.UnumIDSafariViewController : SafariServices.SFSafariVi
   @_Concurrency.MainActor(unsafe) @objc final public func safariViewController(_ controller: SafariServices.SFSafariViewController, initialLoadDidRedirectTo URL: Foundation.URL)
   @_Concurrency.MainActor(unsafe) @objc final public func safariViewController(_ controller: SafariServices.SFSafariViewController, didCompleteInitialLoad didLoadSuccessfully: Swift.Bool)
 }
+extension UnumIDWebWallet.Enviroment : Swift.Equatable {}
+extension UnumIDWebWallet.Enviroment : Swift.Hashable {}

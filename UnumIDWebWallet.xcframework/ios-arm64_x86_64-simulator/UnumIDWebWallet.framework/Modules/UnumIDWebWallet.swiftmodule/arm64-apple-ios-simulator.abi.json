@@ -1,0 +1,5374 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SafariView",
+        "printedName": "SafariView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SafariView",
+                "printedName": "UnumIDWebWallet.SafariView",
+                "usr": "s:15UnumIDWebWallet10SafariViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "SafariServices.SFSafariViewController.Configuration",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)SFSafariViewControllerConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet10SafariViewV3url13configurationAC10Foundation3URLV_So08SFSafariE23ControllerConfigurationCtcfc",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV3url13configurationAC10Foundation3URLV_So08SFSafariE23ControllerConfigurationCtcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "preferredBarAccentColor",
+            "printedName": "preferredBarAccentColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SafariView",
+                "printedName": "UnumIDWebWallet.SafariView",
+                "usr": "s:15UnumIDWebWallet10SafariViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10SafariViewV23preferredBarAccentColoryAC7SwiftUI0I0VSgF",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV23preferredBarAccentColoryAC7SwiftUI0I0VSgF",
+            "moduleName": "UnumIDWebWallet",
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preferredControlAccentColor",
+            "printedName": "preferredControlAccentColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SafariView",
+                "printedName": "UnumIDWebWallet.SafariView",
+                "usr": "s:15UnumIDWebWallet10SafariViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10SafariViewV27preferredControlAccentColoryAC7SwiftUI0I0VSgF",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV27preferredControlAccentColoryAC7SwiftUI0I0VSgF",
+            "moduleName": "UnumIDWebWallet",
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preferredBarTintColor",
+            "printedName": "preferredBarTintColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SafariView",
+                "printedName": "UnumIDWebWallet.SafariView",
+                "usr": "s:15UnumIDWebWallet10SafariViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10SafariViewV21preferredBarTintColoryACSo7UIColorCSgF",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV21preferredBarTintColoryACSo7UIColorCSgF",
+            "moduleName": "UnumIDWebWallet",
+            "deprecated": true,
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preferredControlTintColor",
+            "printedName": "preferredControlTintColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SafariView",
+                "printedName": "UnumIDWebWallet.SafariView",
+                "usr": "s:15UnumIDWebWallet10SafariViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10SafariViewV25preferredControlTintColoryACSo7UIColorCSgF",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV25preferredControlTintColoryACSo7UIColorCSgF",
+            "moduleName": "UnumIDWebWallet",
+            "deprecated": true,
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissButtonStyle",
+            "printedName": "dismissButtonStyle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SafariView",
+                "printedName": "UnumIDWebWallet.SafariView",
+                "usr": "s:15UnumIDWebWallet10SafariViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DismissButtonStyle",
+                "printedName": "SafariServices.SFSafariViewController.DismissButtonStyle",
+                "usr": "c:@E@SFSafariViewControllerDismissButtonStyle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10SafariViewV18dismissButtonStyleyACSo08SFSafarie17ControllerDismissgH0VF",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV18dismissButtonStyleyACSo08SFSafarie17ControllerDismissgH0VF",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10SafariViewV4bodyQrvp",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV4bodyQrvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10SafariViewV4bodyQrvg",
+                "mangledName": "$s15UnumIDWebWallet10SafariViewV4bodyQrvg",
+                "moduleName": "UnumIDWebWallet",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "accentColor",
+            "printedName": "accentColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SafariView",
+                "printedName": "UnumIDWebWallet.SafariView",
+                "usr": "s:15UnumIDWebWallet10SafariViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10SafariViewV11accentColoryAC7SwiftUI0G0VSgF",
+            "mangledName": "$s15UnumIDWebWallet10SafariViewV11accentColoryAC7SwiftUI0G0VSgF",
+            "moduleName": "UnumIDWebWallet",
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet10SafariViewV",
+        "mangledName": "$s15UnumIDWebWallet10SafariViewV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MailView",
+        "printedName": "MailView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configure",
+            "printedName": "configure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MessageUI.MFMailComposeViewController) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MessageUI.MFMailComposeViewController) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MFMailComposeViewController",
+                        "printedName": "MessageUI.MFMailComposeViewController",
+                        "usr": "c:objc(cs)MFMailComposeViewController"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvp",
+            "mangledName": "$s15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MessageUI.MFMailComposeViewController) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MessageUI.MFMailComposeViewController) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MFMailComposeViewController",
+                            "printedName": "MessageUI.MFMailComposeViewController",
+                            "usr": "c:objc(cs)MFMailComposeViewController"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvg",
+                "mangledName": "$s15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MessageUI.MFMailComposeViewController) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MessageUI.MFMailComposeViewController) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MFMailComposeViewController",
+                            "printedName": "MessageUI.MFMailComposeViewController",
+                            "usr": "c:objc(cs)MFMailComposeViewController"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvs",
+                "mangledName": "$s15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvs",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvM",
+                "mangledName": "$s15UnumIDWebWallet8MailViewV9configureySo013MFMailComposeE10ControllerCcSgvM",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "mailComposeController",
+                "printedName": "mailComposeController(_:didFinishWith:error:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MFMailComposeViewController",
+                    "printedName": "MessageUI.MFMailComposeViewController",
+                    "usr": "c:objc(cs)MFMailComposeViewController"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MFMailComposeResult",
+                    "printedName": "MessageUI.MFMailComposeResult",
+                    "usr": "c:@E@MFMailComposeResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15UnumIDWebWallet8MailViewV11CoordinatorC21mailComposeController_13didFinishWith5errorySo06MFMailheI0C_So0nH6ResultVs5Error_pSgtF",
+                "mangledName": "$s15UnumIDWebWallet8MailViewV11CoordinatorC21mailComposeController_13didFinishWith5errorySo06MFMailheI0C_So0nH6ResultVs5Error_pSgtF",
+                "moduleName": "UnumIDWebWallet",
+                "objc_name": "mailComposeController:didFinishWithResult:error:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "UnumIDWebWallet.MailView.Coordinator",
+                    "usr": "s:15UnumIDWebWallet8MailViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15UnumIDWebWallet8MailViewV11CoordinatorCAEycfc",
+                "mangledName": "$s15UnumIDWebWallet8MailViewV11CoordinatorCAEycfc",
+                "moduleName": "UnumIDWebWallet",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:15UnumIDWebWallet8MailViewV11CoordinatorC",
+            "mangledName": "$s15UnumIDWebWallet8MailViewV11CoordinatorC",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "UnumIDWebWallet.MailView.Coordinator",
+                "usr": "s:15UnumIDWebWallet8MailViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet8MailViewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s15UnumIDWebWallet8MailViewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MFMailComposeViewController",
+                "printedName": "MessageUI.MFMailComposeViewController",
+                "usr": "c:objc(cs)MFMailComposeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<UnumIDWebWallet.MailView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MailView",
+                    "printedName": "UnumIDWebWallet.MailView",
+                    "usr": "s:15UnumIDWebWallet8MailViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet8MailViewV20makeUIViewController7contextSo013MFMailComposeeH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+            "mangledName": "$s15UnumIDWebWallet8MailViewV20makeUIViewController7contextSo013MFMailComposeeH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MFMailComposeViewController",
+                "printedName": "MessageUI.MFMailComposeViewController",
+                "usr": "c:objc(cs)MFMailComposeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<UnumIDWebWallet.MailView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MailView",
+                    "printedName": "UnumIDWebWallet.MailView",
+                    "usr": "s:15UnumIDWebWallet8MailViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet8MailViewV22updateUIViewController_7contextySo013MFMailComposeeH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+            "mangledName": "$s15UnumIDWebWallet8MailViewV22updateUIViewController_7contextySo013MFMailComposeeH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet8MailViewV",
+        "mangledName": "$s15UnumIDWebWallet8MailViewV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MFMailComposeViewController",
+                    "printedName": "MessageUI.MFMailComposeViewController",
+                    "usr": "c:objc(cs)MFMailComposeViewController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "UnumIDWebWallet.MailView.Coordinator",
+                    "usr": "s:15UnumIDWebWallet8MailViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UnumLogger",
+        "printedName": "UnumLogger",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Enviroment",
+        "printedName": "Enviroment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnumIDWebWallet.Enviroment.Type) -> UnumIDWebWallet.Enviroment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Enviroment",
+                    "printedName": "UnumIDWebWallet.Enviroment",
+                    "usr": "s:15UnumIDWebWallet10EnviromentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnumIDWebWallet.Enviroment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Enviroment",
+                        "printedName": "UnumIDWebWallet.Enviroment",
+                        "usr": "s:15UnumIDWebWallet10EnviromentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15UnumIDWebWallet10EnviromentO3devyA2CmF",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO3devyA2CmF",
+            "moduleName": "UnumIDWebWallet"
+          },
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnumIDWebWallet.Enviroment.Type) -> UnumIDWebWallet.Enviroment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Enviroment",
+                    "printedName": "UnumIDWebWallet.Enviroment",
+                    "usr": "s:15UnumIDWebWallet10EnviromentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnumIDWebWallet.Enviroment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Enviroment",
+                        "printedName": "UnumIDWebWallet.Enviroment",
+                        "usr": "s:15UnumIDWebWallet10EnviromentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15UnumIDWebWallet10EnviromentO7sandboxyA2CmF",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO7sandboxyA2CmF",
+            "moduleName": "UnumIDWebWallet"
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnumIDWebWallet.Enviroment.Type) -> UnumIDWebWallet.Enviroment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Enviroment",
+                    "printedName": "UnumIDWebWallet.Enviroment",
+                    "usr": "s:15UnumIDWebWallet10EnviromentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnumIDWebWallet.Enviroment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Enviroment",
+                        "printedName": "UnumIDWebWallet.Enviroment",
+                        "usr": "s:15UnumIDWebWallet10EnviromentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15UnumIDWebWallet10EnviromentO10productionyA2CmF",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO10productionyA2CmF",
+            "moduleName": "UnumIDWebWallet"
+          },
+          {
+            "kind": "Var",
+            "name": "baseUrl",
+            "printedName": "baseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10EnviromentO7baseUrlSSvp",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO7baseUrlSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10EnviromentO7baseUrlSSvg",
+                "mangledName": "$s15UnumIDWebWallet10EnviromentO7baseUrlSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webWalletUrl",
+            "printedName": "webWalletUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10EnviromentO03webC3UrlSSvp",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO03webC3UrlSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10EnviromentO03webC3UrlSSvg",
+                "mangledName": "$s15UnumIDWebWallet10EnviromentO03webC3UrlSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Enviroment",
+                "printedName": "UnumIDWebWallet.Enviroment",
+                "usr": "s:15UnumIDWebWallet10EnviromentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Enviroment",
+                "printedName": "UnumIDWebWallet.Enviroment",
+                "usr": "s:15UnumIDWebWallet10EnviromentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10EnviromentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO2eeoiySbAC_ACtFZ",
+            "moduleName": "UnumIDWebWallet",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10EnviromentO9hashValueSivp",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO9hashValueSivp",
+            "moduleName": "UnumIDWebWallet",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10EnviromentO9hashValueSivg",
+                "mangledName": "$s15UnumIDWebWallet10EnviromentO9hashValueSivg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet10EnviromentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15UnumIDWebWallet10EnviromentO4hash4intoys6HasherVz_tF",
+            "moduleName": "UnumIDWebWallet",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15UnumIDWebWallet10EnviromentO",
+        "mangledName": "$s15UnumIDWebWallet10EnviromentO",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresentationRequestState",
+        "printedName": "PresentationRequestState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "needsVerification",
+            "printedName": "needsVerification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnumIDWebWallet.PresentationRequestState.Type) -> (UnumIDWebWallet.Subject) -> UnumIDWebWallet.PresentationRequestState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UnumIDWebWallet.Subject) -> UnumIDWebWallet.PresentationRequestState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationRequestState",
+                        "printedName": "UnumIDWebWallet.PresentationRequestState",
+                        "usr": "s:15UnumIDWebWallet24PresentationRequestStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Subject",
+                        "printedName": "UnumIDWebWallet.Subject",
+                        "usr": "s:15UnumIDWebWallet7SubjectV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnumIDWebWallet.PresentationRequestState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationRequestState",
+                        "printedName": "UnumIDWebWallet.PresentationRequestState",
+                        "usr": "s:15UnumIDWebWallet24PresentationRequestStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15UnumIDWebWallet24PresentationRequestStateO17needsVerificationyAcA7SubjectVcACmF",
+            "mangledName": "$s15UnumIDWebWallet24PresentationRequestStateO17needsVerificationyAcA7SubjectVcACmF",
+            "moduleName": "UnumIDWebWallet"
+          },
+          {
+            "kind": "Var",
+            "name": "ok",
+            "printedName": "ok",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnumIDWebWallet.PresentationRequestState.Type) -> UnumIDWebWallet.PresentationRequestState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresentationRequestState",
+                    "printedName": "UnumIDWebWallet.PresentationRequestState",
+                    "usr": "s:15UnumIDWebWallet24PresentationRequestStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnumIDWebWallet.PresentationRequestState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationRequestState",
+                        "printedName": "UnumIDWebWallet.PresentationRequestState",
+                        "usr": "s:15UnumIDWebWallet24PresentationRequestStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15UnumIDWebWallet24PresentationRequestStateO2okyA2CmF",
+            "mangledName": "$s15UnumIDWebWallet24PresentationRequestStateO2okyA2CmF",
+            "moduleName": "UnumIDWebWallet"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15UnumIDWebWallet24PresentationRequestStateO",
+        "mangledName": "$s15UnumIDWebWallet24PresentationRequestStateO",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Parameters",
+        "printedName": "Parameters",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userCode",
+            "printedName": "userCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV8userCodeSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV8userCodeSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV8userCodeSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV8userCodeSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userEmail",
+            "printedName": "userEmail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV9userEmailSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV9userEmailSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV9userEmailSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV9userEmailSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "issuer",
+            "printedName": "issuer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV6issuerSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV6issuerSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV6issuerSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV6issuerSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enviroment",
+            "printedName": "enviroment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Enviroment",
+                "printedName": "UnumIDWebWallet.Enviroment",
+                "usr": "s:15UnumIDWebWallet10EnviromentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV10enviromentAA10EnviromentOvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV10enviromentAA10EnviromentOvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Enviroment",
+                    "printedName": "UnumIDWebWallet.Enviroment",
+                    "usr": "s:15UnumIDWebWallet10EnviromentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV10enviromentAA10EnviromentOvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV10enviromentAA10EnviromentOvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scheme",
+            "printedName": "scheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV6schemeSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV6schemeSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV6schemeSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV6schemeSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callback",
+            "printedName": "callback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV8callbackSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV8callbackSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV8callbackSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV8callbackSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presentationRequestId",
+            "printedName": "presentationRequestId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV21presentationRequestIdSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV21presentationRequestIdSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV21presentationRequestIdSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV21presentationRequestIdSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userCode:userEmail:issuer:scheme:callback:presentationRequestId:enviroment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Parameters",
+                "printedName": "UnumIDWebWallet.Parameters",
+                "usr": "s:15UnumIDWebWallet10ParametersV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Enviroment",
+                "printedName": "UnumIDWebWallet.Enviroment",
+                "hasDefaultArg": true,
+                "usr": "s:15UnumIDWebWallet10EnviromentO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet10ParametersV8userCode0E5Email6issuer6scheme8callback21presentationRequestId10enviromentACSSSg_A5kA10EnviromentOtcfc",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV8userCode0E5Email6issuer6scheme8callback21presentationRequestId10enviromentACSSSg_A5kA10EnviromentOtcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "webWalletURL",
+            "printedName": "webWalletURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet10ParametersV03webC3URL10Foundation0F0Vvp",
+            "mangledName": "$s15UnumIDWebWallet10ParametersV03webC3URL10Foundation0F0Vvp",
+            "moduleName": "UnumIDWebWallet",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet10ParametersV03webC3URL10Foundation0F0Vvg",
+                "mangledName": "$s15UnumIDWebWallet10ParametersV03webC3URL10Foundation0F0Vvg",
+                "moduleName": "UnumIDWebWallet",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet10ParametersV",
+        "mangledName": "$s15UnumIDWebWallet10ParametersV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestValue",
+        "printedName": "RequestValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dob",
+            "printedName": "dob",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet12RequestValueV3dobSSvp",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV3dobSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet12RequestValueV3dobSSvg",
+                "mangledName": "$s15UnumIDWebWallet12RequestValueV3dobSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet12RequestValueV7addressSSvp",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV7addressSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet12RequestValueV7addressSSvg",
+                "mangledName": "$s15UnumIDWebWallet12RequestValueV7addressSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullName",
+            "printedName": "fullName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet12RequestValueV8fullNameSSvp",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV8fullNameSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet12RequestValueV8fullNameSSvg",
+                "mangledName": "$s15UnumIDWebWallet12RequestValueV8fullNameSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet12RequestValueV6genderSSvp",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV6genderSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet12RequestValueV6genderSSvg",
+                "mangledName": "$s15UnumIDWebWallet12RequestValueV6genderSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "docImage",
+            "printedName": "docImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet12RequestValueV8docImageSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV8docImageSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet12RequestValueV8docImageSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet12RequestValueV8docImageSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dob:address:fullName:gender:docImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestValue",
+                "printedName": "UnumIDWebWallet.RequestValue",
+                "usr": "s:15UnumIDWebWallet12RequestValueV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet12RequestValueV3dob7address8fullName6gender8docImageACSS_S4SSgtcfc",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV3dob7address8fullName6gender8docImageACSS_S4SSgtcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestValue",
+                "printedName": "UnumIDWebWallet.RequestValue",
+                "usr": "s:15UnumIDWebWallet12RequestValueV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet12RequestValueV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UnumIDWebWallet",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet12RequestValueV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15UnumIDWebWallet12RequestValueV6encode2toys7Encoder_p_tKF",
+            "moduleName": "UnumIDWebWallet",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet12RequestValueV",
+        "mangledName": "$s15UnumIDWebWallet12RequestValueV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnumError",
+        "printedName": "UnumError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnumIDWebWallet.UnumError.Type) -> (Swift.String) -> UnumIDWebWallet.UnumError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> UnumIDWebWallet.UnumError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnumError",
+                        "printedName": "UnumIDWebWallet.UnumError",
+                        "usr": "s:15UnumIDWebWallet0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnumIDWebWallet.UnumError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnumError",
+                        "printedName": "UnumIDWebWallet.UnumError",
+                        "usr": "s:15UnumIDWebWallet0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15UnumIDWebWallet0A5ErrorO4textyACSScACmF",
+            "mangledName": "$s15UnumIDWebWallet0A5ErrorO4textyACSScACmF",
+            "moduleName": "UnumIDWebWallet"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s15UnumIDWebWallet0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s15UnumIDWebWallet0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "UnumIDWebWallet",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15UnumIDWebWallet0A5ErrorO",
+        "mangledName": "$s15UnumIDWebWallet0A5ErrorO",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Subject",
+        "printedName": "Subject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "did",
+            "printedName": "did",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet7SubjectV3didSSvp",
+            "mangledName": "$s15UnumIDWebWallet7SubjectV3didSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet7SubjectV3didSSvg",
+                "mangledName": "$s15UnumIDWebWallet7SubjectV3didSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(did:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subject",
+                "printedName": "UnumIDWebWallet.Subject",
+                "usr": "s:15UnumIDWebWallet7SubjectV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet7SubjectV3didACSS_tcfc",
+            "mangledName": "$s15UnumIDWebWallet7SubjectV3didACSS_tcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet7SubjectV",
+        "mangledName": "$s15UnumIDWebWallet7SubjectV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestResponse",
+        "printedName": "RequestResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userCode",
+            "printedName": "userCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet15RequestResponseV8userCodeSSvp",
+            "mangledName": "$s15UnumIDWebWallet15RequestResponseV8userCodeSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet15RequestResponseV8userCodeSSvg",
+                "mangledName": "$s15UnumIDWebWallet15RequestResponseV8userCodeSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestResponse",
+                "printedName": "UnumIDWebWallet.RequestResponse",
+                "usr": "s:15UnumIDWebWallet15RequestResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet15RequestResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15UnumIDWebWallet15RequestResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UnumIDWebWallet",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet15RequestResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15UnumIDWebWallet15RequestResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "UnumIDWebWallet",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet15RequestResponseV",
+        "mangledName": "$s15UnumIDWebWallet15RequestResponseV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnumID",
+        "printedName": "UnumID",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnumID",
+                "printedName": "UnumIDWebWallet.UnumID",
+                "usr": "s:15UnumIDWebWallet0A2IDC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet0A2IDC6sharedACvpZ",
+            "mangledName": "$s15UnumIDWebWallet0A2IDC6sharedACvpZ",
+            "moduleName": "UnumIDWebWallet",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnumID",
+                    "printedName": "UnumIDWebWallet.UnumID",
+                    "usr": "s:15UnumIDWebWallet0A2IDC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet0A2IDC6sharedACvgZ",
+                "mangledName": "$s15UnumIDWebWallet0A2IDC6sharedACvgZ",
+                "moduleName": "UnumIDWebWallet",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendRequest",
+            "printedName": "sendRequest(input:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RequestValue",
+                "printedName": "UnumIDWebWallet.RequestValue",
+                "usr": "s:15UnumIDWebWallet12RequestValueV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<UnumIDWebWallet.RequestResponse, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<UnumIDWebWallet.RequestResponse, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestResponse",
+                        "printedName": "UnumIDWebWallet.RequestResponse",
+                        "usr": "s:15UnumIDWebWallet15RequestResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet0A2IDC11sendRequest5input10completionyAA0F5ValueV_ys6ResultOyAA0F8ResponseVs5Error_pGctKF",
+            "mangledName": "$s15UnumIDWebWallet0A2IDC11sendRequest5input10completionyAA0F5ValueV_ys6ResultOyAA0F8ResponseVs5Error_pGctKF",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendLogsViaEmail",
+            "printedName": "sendLogsViaEmail(presentingViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet0A2IDC16sendLogsViaEmail24presentingViewControllerySo06UIViewK0C_tKF",
+            "mangledName": "$s15UnumIDWebWallet0A2IDC16sendLogsViaEmail24presentingViewControllerySo06UIViewK0C_tKF",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15UnumIDWebWallet0A2IDC",
+        "mangledName": "$s15UnumIDWebWallet0A2IDC",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebWallet",
+        "printedName": "WebWallet",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebWallet",
+                "printedName": "UnumIDWebWallet.WebWallet",
+                "usr": "s:15UnumIDWebWallet03WebC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet03WebC0C6sharedACvpZ",
+            "mangledName": "$s15UnumIDWebWallet03WebC0C6sharedACvpZ",
+            "moduleName": "UnumIDWebWallet",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebWallet",
+                    "printedName": "UnumIDWebWallet.WebWallet",
+                    "usr": "s:15UnumIDWebWallet03WebC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet03WebC0C6sharedACvgZ",
+                "mangledName": "$s15UnumIDWebWallet03WebC0C6sharedACvgZ",
+                "moduleName": "UnumIDWebWallet",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "associate",
+            "printedName": "associate(on:with:barTintColor:controlTintColor:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Parameters",
+                "printedName": "UnumIDWebWallet.Parameters",
+                "usr": "s:15UnumIDWebWallet10ParametersV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet03WebC0C9associate2on4with12barTintColor07controliJ010completionySo16UIViewControllerC_AA10ParametersVSo7UIColorCSgAPyycSgtFZ",
+            "mangledName": "$s15UnumIDWebWallet03WebC0C9associate2on4with12barTintColor07controliJ010completionySo16UIViewControllerC_AA10ParametersVSo7UIColorCSgAPyycSgtFZ",
+            "moduleName": "UnumIDWebWallet",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(url:on:barTintColor:controlTintColor:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet03WebC0C6launch3url2on12barTintColor07controliJ010completiony10Foundation3URLV_So16UIViewControllerCSo7UIColorCSgAQyycSgtFZ",
+            "mangledName": "$s15UnumIDWebWallet03WebC0C6launch3url2on12barTintColor07controliJ010completiony10Foundation3URLV_So16UIViewControllerCSo7UIColorCSgAQyycSgtFZ",
+            "moduleName": "UnumIDWebWallet",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15UnumIDWebWallet03WebC0C",
+        "mangledName": "$s15UnumIDWebWallet03WebC0C",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebAuthenticationSession",
+        "printedName": "WebAuthenticationSession",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:callbackURLScheme:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebAuthenticationSession",
+                "printedName": "UnumIDWebWallet.WebAuthenticationSession",
+                "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV3url17callbackURLScheme17completionHandlerAC10Foundation3URLV_SSSgyAISg_s5Error_pSgtctcfc",
+            "mangledName": "$s15UnumIDWebWallet24WebAuthenticationSessionV3url17callbackURLScheme17completionHandlerAC10Foundation3URLV_SSSgyAISg_s5Error_pSgtctcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:callbackURLScheme:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebAuthenticationSession",
+                "printedName": "UnumIDWebWallet.WebAuthenticationSession",
+                "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.URL, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.URL, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV3url17callbackURLScheme12onCompletionAC10Foundation3URLV_SSSgys6ResultOyAIs5Error_pGctcfc",
+            "mangledName": "$s15UnumIDWebWallet24WebAuthenticationSessionV3url17callbackURLScheme12onCompletionAC10Foundation3URLV_SSSgys6ResultOyAIs5Error_pGctcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "prefersEphemeralWebBrowserSession",
+            "printedName": "prefersEphemeralWebBrowserSession(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebAuthenticationSession",
+                "printedName": "UnumIDWebWallet.WebAuthenticationSession",
+                "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV016prefersEphemerald7BrowserF0yACSbF",
+            "mangledName": "$s15UnumIDWebWallet24WebAuthenticationSessionV016prefersEphemerald7BrowserF0yACSbF",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV",
+        "mangledName": "$s15UnumIDWebWallet24WebAuthenticationSessionV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "WebAuthenticationSessionErrorDomain",
+        "printedName": "WebAuthenticationSessionErrorDomain",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:15UnumIDWebWallet35WebAuthenticationSessionErrorDomainSSvp",
+        "mangledName": "$s15UnumIDWebWallet35WebAuthenticationSessionErrorDomainSSvp",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15UnumIDWebWallet35WebAuthenticationSessionErrorDomainSSvg",
+            "mangledName": "$s15UnumIDWebWallet35WebAuthenticationSessionErrorDomainSSvg",
+            "moduleName": "UnumIDWebWallet",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebAuthenticationController",
+        "printedName": "WebAuthenticationController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentationAnchor",
+            "printedName": "presentationAnchor(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ASWebAuthenticationSession",
+                "printedName": "AuthenticationServices.ASWebAuthenticationSession",
+                "usr": "c:objc(cs)ASWebAuthenticationSession"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UnumIDWebWallet@objc(cs)WebAuthenticationController(im)presentationAnchorForWebAuthenticationSession:",
+            "mangledName": "$s15UnumIDWebWallet27WebAuthenticationControllerC18presentationAnchor3forSo8UIWindowCSo05ASWebE7SessionC_tF",
+            "moduleName": "UnumIDWebWallet",
+            "objc_name": "presentationAnchorForWebAuthenticationSession:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebAuthenticationController",
+                "printedName": "UnumIDWebWallet.WebAuthenticationController",
+                "usr": "c:@M@UnumIDWebWallet@objc(cs)WebAuthenticationController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UnumIDWebWallet@objc(cs)WebAuthenticationController(im)init",
+            "mangledName": "$s15UnumIDWebWallet27WebAuthenticationControllerCACycfc",
+            "moduleName": "UnumIDWebWallet",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UnumIDWebWallet@objc(cs)WebAuthenticationController",
+        "mangledName": "$s15UnumIDWebWallet27WebAuthenticationControllerC",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoadingView",
+        "printedName": "LoadingView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoadingView",
+                "printedName": "UnumIDWebWallet.LoadingView",
+                "usr": "s:15UnumIDWebWallet11LoadingViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UnumIDWebWallet11LoadingViewV5color4sizeAC7SwiftUI5ColorV_So6CGSizeVtcfc",
+            "mangledName": "$s15UnumIDWebWallet11LoadingViewV5color4sizeAC7SwiftUI5ColorV_So6CGSizeVtcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet11LoadingViewV4bodyQrvp",
+            "mangledName": "$s15UnumIDWebWallet11LoadingViewV4bodyQrvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet11LoadingViewV4bodyQrvg",
+                "mangledName": "$s15UnumIDWebWallet11LoadingViewV4bodyQrvg",
+                "moduleName": "UnumIDWebWallet",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet11LoadingViewV",
+        "mangledName": "$s15UnumIDWebWallet11LoadingViewV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoadingWrapperView",
+        "printedName": "LoadingWrapperView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15UnumIDWebWallet18LoadingWrapperViewV4bodyQrvp",
+            "mangledName": "$s15UnumIDWebWallet18LoadingWrapperViewV4bodyQrvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15UnumIDWebWallet18LoadingWrapperViewV4bodyQrvg",
+                "mangledName": "$s15UnumIDWebWallet18LoadingWrapperViewV4bodyQrvg",
+                "moduleName": "UnumIDWebWallet",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15UnumIDWebWallet18LoadingWrapperViewV",
+        "mangledName": "$s15UnumIDWebWallet18LoadingWrapperViewV",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "UnumIDWebWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnumIDSafariViewController",
+        "printedName": "UnumIDSafariViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)viewDidLoad",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC11viewDidLoadyyF",
+            "moduleName": "UnumIDWebWallet",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMove",
+            "printedName": "didMove(toParent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)didMoveToParentViewController:",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC7didMove8toParentySo06UIViewF0CSg_tF",
+            "moduleName": "UnumIDWebWallet",
+            "overriding": true,
+            "objc_name": "didMoveToParentViewController:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preferredStatusBarStyle",
+            "printedName": "preferredStatusBarStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStatusBarStyle",
+                "printedName": "UIKit.UIStatusBarStyle",
+                "usr": "c:@E@UIStatusBarStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(py)preferredStatusBarStyle",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC23preferredStatusBarStyleSo08UIStatusiJ0Vvp",
+            "moduleName": "UnumIDWebWallet",
+            "overriding": true,
+            "objc_name": "preferredStatusBarStyle",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStatusBarStyle",
+                    "printedName": "UIKit.UIStatusBarStyle",
+                    "usr": "c:@E@UIStatusBarStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)preferredStatusBarStyle",
+                "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC23preferredStatusBarStyleSo08UIStatusiJ0Vvg",
+                "moduleName": "UnumIDWebWallet",
+                "overriding": true,
+                "objc_name": "preferredStatusBarStyle",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnumIDSafariViewController",
+                "printedName": "UnumIDWebWallet.UnumIDSafariViewController",
+                "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "SafariServices.SFSafariViewController.Configuration",
+                "usr": "c:objc(cs)SFSafariViewControllerConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)initWithURL:configuration:",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC3url13configurationAC10Foundation3URLV_So08SFSafarieF13ConfigurationCtcfc",
+            "moduleName": "UnumIDWebWallet",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "11.0",
+            "objc_name": "initWithURL:configuration:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:entersReaderIfAvailable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnumIDSafariViewController",
+                "printedName": "UnumIDWebWallet.UnumIDSafariViewController",
+                "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)initWithURL:entersReaderIfAvailable:",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC3url23entersReaderIfAvailableAC10Foundation3URLV_Sbtcfc",
+            "moduleName": "UnumIDWebWallet",
+            "deprecated": true,
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "9.0",
+            "objc_name": "initWithURL:entersReaderIfAvailable:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewControllerDidFinish",
+            "printedName": "safariViewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)safariViewControllerDidFinish:",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC06safarieF9DidFinishyySo08SFSafarieF0CF",
+            "moduleName": "UnumIDWebWallet",
+            "objc_name": "safariViewControllerDidFinish:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewController",
+            "printedName": "safariViewController(_:initialLoadDidRedirectTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)safariViewController:initialLoadDidRedirectToURL:",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC06safarieF0_24initialLoadDidRedirectToySo08SFSafarieF0C_10Foundation3URLVtF",
+            "moduleName": "UnumIDWebWallet",
+            "objc_name": "safariViewController:initialLoadDidRedirectToURL:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewController",
+            "printedName": "safariViewController(_:didCompleteInitialLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UnumIDWebWallet@objc(cs)UnumIDSafariViewController(im)safariViewController:didCompleteInitialLoad:",
+            "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC06safarieF0_22didCompleteInitialLoadySo08SFSafarieF0C_SbtF",
+            "moduleName": "UnumIDWebWallet",
+            "objc_name": "safariViewController:didCompleteInitialLoad:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UnumIDWebWallet@objc(cs)UnumIDSafariViewController",
+        "mangledName": "$s15UnumIDWebWallet0A22IDSafariViewControllerC",
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SFSafariViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SafariServices.SFSafariViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bool",
+        "printedName": "Bool",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sb15UnumIDWebWalletE2idSbvp",
+            "mangledName": "$sSb15UnumIDWebWalletE2idSbvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sb15UnumIDWebWalletE2idSbvg",
+                "mangledName": "$sSb15UnumIDWebWalletE2idSbvg",
+                "moduleName": "UnumIDWebWallet",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sb",
+        "mangledName": "$sSb",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinBooleanLiteral",
+            "printedName": "_ExpressibleByBuiltinBooleanLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinBooleanLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinBooleanLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByBooleanLiteral",
+            "printedName": "ExpressibleByBooleanLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "BooleanLiteralType",
+                "printedName": "BooleanLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByBooleanLiteralP",
+            "mangledName": "$ss27ExpressibleByBooleanLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URL",
+        "printedName": "URL",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation3URLV15UnumIDWebWalletE2idSSvp",
+            "mangledName": "$s10Foundation3URLV15UnumIDWebWalletE2idSSvp",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation3URLV15UnumIDWebWalletE2idSSvg",
+                "mangledName": "$s10Foundation3URLV15UnumIDWebWalletE2idSSvg",
+                "moduleName": "UnumIDWebWallet",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation3URLV",
+        "mangledName": "$s10Foundation3URLV",
+        "moduleName": "Foundation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByFileReferenceLiteral",
+            "printedName": "_ExpressibleByFileReferenceLiteral",
+            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
+            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Configuration",
+        "printedName": "Configuration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entersReaderIfAvailable:barCollapsingEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "SafariServices.SFSafariViewController.Configuration",
+                "usr": "c:objc(cs)SFSafariViewControllerConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So35SFSafariViewControllerConfigurationC15UnumIDWebWalletE23entersReaderIfAvailable20barCollapsingEnabledABSb_Sbtcfc",
+            "mangledName": "$sSo35SFSafariViewControllerConfigurationC15UnumIDWebWalletE23entersReaderIfAvailable20barCollapsingEnabledABSb_Sbtcfc",
+            "moduleName": "UnumIDWebWallet",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SFSafariViewControllerConfiguration",
+        "moduleName": "SafariServices",
+        "isOpen": true,
+        "intro_iOS": "11.0",
+        "objc_name": "SFSafariViewControllerConfiguration",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isFromExtension": true,
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "safariView",
+            "printedName": "safariView(isPresented:onDismiss:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> UnumIDWebWallet.SafariView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SafariView",
+                    "printedName": "UnumIDWebWallet.SafariView",
+                    "usr": "s:15UnumIDWebWallet10SafariViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP15UnumIDWebWalletE06safariC011isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgAD06SafariC0VyctF",
+            "mangledName": "$s7SwiftUI4ViewP15UnumIDWebWalletE06safariC011isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgAD06SafariC0VyctF",
+            "moduleName": "UnumIDWebWallet",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "safariView",
+            "printedName": "safariView(item:onDismiss:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<τ_1_0?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_1_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_1_0) -> UnumIDWebWallet.SafariView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SafariView",
+                    "printedName": "UnumIDWebWallet.SafariView",
+                    "usr": "s:15UnumIDWebWallet10SafariViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP15UnumIDWebWalletE06safariC04item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgAD06SafariC0Vqd__cts12IdentifiableRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP15UnumIDWebWalletE06safariC04item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgAD06SafariC0Vqd__cts12IdentifiableRd__lF",
+            "moduleName": "UnumIDWebWallet",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : Swift.Identifiable>",
+            "sugared_genericSig": "<Self, Item where Self : SwiftUI.View, Item : Swift.Identifiable>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWebWallet",
+            "printedName": "launchWebWallet(isPresented:parameters:barTintColor:controlTintColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UnumIDWebWallet.Parameters?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Parameters",
+                    "printedName": "UnumIDWebWallet.Parameters",
+                    "usr": "s:15UnumIDWebWallet10ParametersV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP15UnumIDWebWalletE09launchWebF011isPresented10parameters12barTintColor07controlmN0QrAA7BindingVySbG_AD10ParametersVSgAA0N0VSgARtF",
+            "mangledName": "$s7SwiftUI4ViewP15UnumIDWebWalletE09launchWebF011isPresented10parameters12barTintColor07controlmN0QrAA7BindingVySbG_AD10ParametersVSgAA0N0VSgARtF",
+            "moduleName": "UnumIDWebWallet",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWebWalletWithSharedSafariSession",
+            "printedName": "launchWebWalletWithSharedSafariSession(isPresented:parameters:barTintColor:controlTintColor:prefersEphemeralWebBrowserSession:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UnumIDWebWallet.Parameters?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Parameters",
+                    "printedName": "UnumIDWebWallet.Parameters",
+                    "usr": "s:15UnumIDWebWallet10ParametersV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<UnumIDWebWallet.PresentationRequestState, Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<UnumIDWebWallet.PresentationRequestState, Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<UnumIDWebWallet.PresentationRequestState, Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationRequestState",
+                            "printedName": "UnumIDWebWallet.PresentationRequestState",
+                            "usr": "s:15UnumIDWebWallet24PresentationRequestStateO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP15UnumIDWebWalletE09launchWebF23WithSharedSafariSession11isPresented10parameters12barTintColor07controlqR0016prefersEphemeralh7BrowserL010completionQrAA7BindingVySbG_AD10ParametersVSgAA0R0VSgATSbys6ResultOyAD24PresentationRequestStateOs5Error_pGcSgtF",
+            "mangledName": "$s7SwiftUI4ViewP15UnumIDWebWalletE09launchWebF23WithSharedSafariSession11isPresented10parameters12barTintColor07controlqR0016prefersEphemeralh7BrowserL010completionQrAA7BindingVySbG_AD10ParametersVSgAA0R0VSgATSbys6ResultOyAD24PresentationRequestStateOs5Error_pGcSgtF",
+            "moduleName": "UnumIDWebWallet",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webAuthenticationSession",
+            "printedName": "webAuthenticationSession(isPresented:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> UnumIDWebWallet.WebAuthenticationSession",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebAuthenticationSession",
+                    "printedName": "UnumIDWebWallet.WebAuthenticationSession",
+                    "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP15UnumIDWebWalletE24webAuthenticationSession11isPresented7contentQrAA7BindingVySbG_AD03WebhI0VyctF",
+            "mangledName": "$s7SwiftUI4ViewP15UnumIDWebWalletE24webAuthenticationSession11isPresented7contentQrAA7BindingVySbG_AD03WebhI0VyctF",
+            "moduleName": "UnumIDWebWallet",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webAuthenticationSession",
+            "printedName": "webAuthenticationSession(item:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<τ_1_0?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_1_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_1_0) -> UnumIDWebWallet.WebAuthenticationSession",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebAuthenticationSession",
+                    "printedName": "UnumIDWebWallet.WebAuthenticationSession",
+                    "usr": "s:15UnumIDWebWallet24WebAuthenticationSessionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP15UnumIDWebWalletE24webAuthenticationSession4item7contentQrAA7BindingVyqd__SgG_AD03WebhI0Vqd__cts12IdentifiableRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP15UnumIDWebWalletE24webAuthenticationSession4item7contentQrAA7BindingVyqd__SgG_AD03WebhI0Vqd__cts12IdentifiableRd__lF",
+            "moduleName": "UnumIDWebWallet",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : Swift.Identifiable>",
+            "sugared_genericSig": "<Self, Item where Self : SwiftUI.View, Item : Swift.Identifiable>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/SafariView\/SafariView\/SafariViewPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 11,
+      "value": "\"UnumIDWebWallet.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/SafariView\/SafariView\/SafariView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5399,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/SafariView\/SafariView\/SafariView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5435,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/SafariView\/WebAuthenticationSession\/WebAuthenticationPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 5458,
+      "length": 27,
+      "value": "\"UnumIDWebWallet.PresentationContextProvider\""
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/SafariView\/WebAuthenticationSession\/WebAuthenticationPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 7255,
+      "length": 28,
+      "value": "\"UnumIDWebWallet.InteractiveDismissalDelegate\""
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/SafariView\/WebAuthenticationSession\/WebAuthenticationPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2647,
+      "length": 11,
+      "value": "\"UnumIDWebWallet.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/Views\/MailView.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 11,
+      "value": "\"UnumIDWebWallet.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/UnumID\/UnumID.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 63,
+      "value": "\"https:\/\/id-verification-api.demo.sandbox-unumid.co\/hyperVerge\""
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/UnumID\/UnumID.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/SafariView\/WebAuthenticationSession\/WebAuthenticationSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4056,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/UnumID\/WebAuthenticationController.swift",
+      "kind": "StringLiteral",
+      "offset": 62,
+      "length": 27,
+      "value": "\"UnumIDWebWallet.WebAuthenticationController\""
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/Views\/LoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 627,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/Views\/LoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 670,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/Views\/LoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 712,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/Controllers\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 17,
+      "value": "\"UnumIDWebWallet.WebViewController\""
+    }
+  ]
+}

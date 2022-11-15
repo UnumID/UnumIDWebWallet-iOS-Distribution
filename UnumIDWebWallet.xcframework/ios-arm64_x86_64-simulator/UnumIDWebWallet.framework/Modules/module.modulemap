@@ -6,6 +6,6 @@ framework module UnumIDWebWallet {
 }
 
 module UnumIDWebWallet.Swift {
-    header "UnumIDWebWallet-Swift.h"
-    requires objc
+  header "UnumIDWebWallet-Swift.h"
+  requires objc
 }

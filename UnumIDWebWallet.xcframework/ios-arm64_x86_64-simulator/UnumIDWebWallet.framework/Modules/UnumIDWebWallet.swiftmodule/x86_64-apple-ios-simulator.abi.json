@@ -942,7 +942,10 @@
         "name": "UnumLogger",
         "printedName": "UnumLogger",
         "declKind": "Import",
-        "moduleName": "UnumIDWebWallet"
+        "moduleName": "UnumIDWebWallet",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5317,14 +5320,14 @@
     {
       "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/UnumID\/UnumID.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 559,
       "length": 63,
       "value": "\"https:\/\/id-verification-api.demo.sandbox-unumid.co\/hyperVerge\""
     },
     {
       "filePath": "\/Users\/lucas\/Desktop\/Desktop\/UnumID\/UnumIDWebWallet-iOS-Private\/UnumIDWebWallet\/UnumID\/UnumID.swift",
       "kind": "BooleanLiteral",
-      "offset": 11332,
+      "offset": 11353,
       "length": 5,
       "value": "false"
     },

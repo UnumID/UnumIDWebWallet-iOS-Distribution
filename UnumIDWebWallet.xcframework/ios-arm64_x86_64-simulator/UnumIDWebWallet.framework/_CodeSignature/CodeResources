@@ -282,11 +282,11 @@
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		U5cphU6Dz+Xc4VEtm2YUX+PbePo=
+		5NeH4WoW0phpv/GRQvfbHGJnn7M=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		to8v0KD3ZJCNnI3E+fVm8oaQnro=
+		sAAnOmpsMH/GH+mcxgaoFP+WAc8=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -294,19 +294,19 @@
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		to8v0KD3ZJCNnI3E+fVm8oaQnro=
+		sAAnOmpsMH/GH+mcxgaoFP+WAc8=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Y4SwOZq08RubscyBT6cfCToPLF0=
+		wHaqgWv0fL14WwzaKQIb7yDuPgc=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		U5cphU6Dz+Xc4VEtm2YUX+PbePo=
+		5NeH4WoW0phpv/GRQvfbHGJnn7M=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YfVGtxNugb61raA+Ues8K0czJNc=
+		nwhgkeHKJlBWEgcTHpEg5/YG93U=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -314,11 +314,11 @@
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YfVGtxNugb61raA+Ues8K0czJNc=
+		nwhgkeHKJlBWEgcTHpEg5/YG93U=
 		</data>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uynq8Pr8HQ4Lyikd0Dc48sm2Grg=
+		EGUrCtW0/VaMQxLU5X++Ta8CHLY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -807,14 +807,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JTPPKmvEt4Mt07AMUz5ilFp3HDcpQyDfz+kJ49pM49w=
+			+Yj/qIjAfFBM5sRn0ZWlX2xXkqUeqLe1Gf4cmHkTvps=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oT/bqXOn9Pa883A8OmgBZMwOpAoiNiUNPsoNFU3S4w4=
+			Gci0wpt8dv5x9v44GkVXbpJwvWSDvzKCwQmS1/rTYsY=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -828,28 +828,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oT/bqXOn9Pa883A8OmgBZMwOpAoiNiUNPsoNFU3S4w4=
+			Gci0wpt8dv5x9v44GkVXbpJwvWSDvzKCwQmS1/rTYsY=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nF1wqSN2vWDPP191Tx5A36aQHXUYiQX2wOsNWoJPTxg=
+			wu2wRG7f1AeaiNH4uxpsZ9AlIfnsLObQJoj2cWdZ8Xs=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JTPPKmvEt4Mt07AMUz5ilFp3HDcpQyDfz+kJ49pM49w=
+			+Yj/qIjAfFBM5sRn0ZWlX2xXkqUeqLe1Gf4cmHkTvps=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zy/V3HrvsuHr65Ds8IL08g17TWHczrANPB17hj0HZ2c=
+			9aI3bzKw3fCr0GB/Z44HgtFPgCRqyVCNvRAAGRuvOeE=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -863,14 +863,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zy/V3HrvsuHr65Ds8IL08g17TWHczrANPB17hj0HZ2c=
+			9aI3bzKw3fCr0GB/Z44HgtFPgCRqyVCNvRAAGRuvOeE=
 			</data>
 		</dict>
 		<key>Modules/UnumIDWebWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mgVXRQKxunOnDxqafQHuW5KPOCk0z7NOZOnm6FUPbNI=
+			V+GAXU8AeSaZaAIxqHdfzMeYG5puzFtbd0BKCz911AY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -10,7 +10,6 @@ import Swift
 import SwiftUI
 import UIKit
 @_exported import UnumIDWebWallet
-import UnumLogger
 import WebKit
 import _AuthenticationServices_SwiftUI
 import _Concurrency
